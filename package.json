@@ -1,0 +1,39 @@
+{
+  "name": "local-dost",
+  "version": "1.0.0",
+  "description": "Free, open-source AI coding agent for your terminal. Auto-switches between free-tier providers so you never hit a wall.",
+  "type": "module",
+  "bin": {
+    "localdost": "bin/localdost.js",
+    "dost": "bin/localdost.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/localdost.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "coding-agent",
+    "free-tier",
+    "groq",
+    "gemini",
+    "openrouter",
+    "cerebras",
+    "terminal"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/local-dost.git"
+  }
+}
